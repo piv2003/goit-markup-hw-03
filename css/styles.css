@@ -9,9 +9,9 @@
   --text-black-color: #212121;
   --text-lightgray-color: #757575;
   --background-our-team: #f5f4fa;
+  --secondary-accent-color: #188CE8;
   --font-logo: "Raleway", sans-serif;
   --font-main: "Roboto", sans-serif;
-  --secondary-accent-color: #188CE8;
 }
 
 body {
@@ -22,7 +22,63 @@ body {
   color: var(--text-black-color);
 }
 
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /*****HEADER start*****/
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.header-line,
+.header-navigation-list,
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-link {
+  margin-right: 93px;
+}
+
+.header-contacts-list {
+  margin-left: auto;
+}
+
+.header-navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-navigation-list,
+.header-contacts-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-logo-link,
 .footer-logo-link {
   color: var(--basic-blue);
@@ -60,7 +116,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* **************************NAV start******************/
 .header-navigation-item-link {
   color: var(--text-black-color);
 }
@@ -69,30 +124,8 @@ body {
   color: var(--text-lightgray-color);
 }
 
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
 /*************** MAIN start *******************/
 /*****section - effective-solutions start*****/
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .effective-solutions {
   background-color: var(--basic-dark);
