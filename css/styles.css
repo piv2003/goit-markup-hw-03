@@ -89,6 +89,11 @@ body {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .effective-solutions {
   background-color: var(--basic-dark);
 }
