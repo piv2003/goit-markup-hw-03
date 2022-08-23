@@ -128,23 +128,30 @@ body {
 /*****section - effective-solutions start*****/
 
 .effective-solutions {
+  padding: 200px 0;
+  margin: 0;
   background-color: var(--basic-dark);
 }
 
 .effective-solutions-title {
+  margin: 0;
   color: var(--basic-white);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: calc(60/44);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
 }
 
 .effective-solutions-buttons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 10px 32px;
   background-color: var(--basic-blue);
   color: var(--basic-white);
-  font-family: var(--font-main);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
