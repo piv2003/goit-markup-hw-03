@@ -26,7 +26,6 @@ body {
 .header-logo-link,
 .footer-logo-link {
   color: var(--basic-blue);
-  text-decoration: none;
   font-family: var(--font-logo);
   font-weight: 700;
   font-size: 26px;
@@ -56,7 +55,6 @@ body {
 
 .header-navigation-item-link,
 .header-contacts-item-link {
-  text-decoration: none;
   font-weight: 500;
   Line-height: 1.14;
   letter-spacing: 0.02em;
@@ -71,19 +69,26 @@ body {
   color: var(--text-lightgray-color);
 }
 
-.header-navigation-list,
-.header-contacts-list,
-.features-list,
-.our-business-list,
-.our-team-list,
-.footer-address-list,
-.portf-buttons-list,
-.portf-blocks-list {
-  list-style-type: none;
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /*************** MAIN start *******************/
 /*****section - effective-solutions start*****/
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .effective-solutions {
   background-color: var(--basic-dark);
 }
@@ -112,7 +117,6 @@ body {
 }
 
 /*****section - features start*****/
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -186,7 +190,6 @@ body {
 .footer-item-contacts-link,
 .footer-item-link {
   line-height: 1.7;
-  text-decoration: none;
   font-style: normal;
 }
 
@@ -204,9 +207,9 @@ body {
 
 .portf-main-buttons:hover {
   background-color: var(--basic-blue);
-  cursor: pointer;
-  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.5));
   color: var(--basic-white);
+  cursor: pointer;
+  /* filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.5)); */
 }
 
 .portf-main-buttons:focus {
@@ -227,8 +230,4 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-lightgray-color);
-}
-
-.portf-blocks-list-link {
-  text-decoration: none;
 }
