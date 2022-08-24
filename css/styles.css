@@ -22,6 +22,12 @@ body {
   color: var(--text-black-color);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -203,11 +209,23 @@ body {
 /*****section - our-business start*****/
 .our-business-title,
 .our-team-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.our-business-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-business-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /*****section - our-team start*****/
