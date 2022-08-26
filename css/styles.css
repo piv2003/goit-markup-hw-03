@@ -143,6 +143,7 @@ img {
   padding: 200px 0;
   margin: 0;
   background-color: var(--basic-dark);
+  text-align: center;
 }
 
 .effective-solutions-title {
@@ -157,9 +158,6 @@ img {
 }
 
 .effective-solutions-buttons {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 30px;
   padding: 10px 32px;
   background-color: var(--basic-blue);
